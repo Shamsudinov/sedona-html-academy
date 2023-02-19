@@ -9,15 +9,38 @@
 
   &__title{
 
-    width: 200px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 13px;
+    color: var(--basic-white);
   }
 
   &__number{
+    position: relative;
     display: inline-block;
     margin-bottom: 26px;
+
+    &::before{
+      content: '';
+      position: absolute;
+      left: -15px;
+      top: 12px;
+      display: block;
+      width: 8px;
+      height: 1px;
+      background-color: var(--basic-white);
+    }
+    &::after{
+      content: '';
+      display: block;
+      position: absolute;
+      right: -15px;
+      top: 12px;
+      width: 8px;
+      height: 1px;
+      background-color: var(--basic-white);
+    }
   }
 
   &__description{
@@ -26,3 +49,22 @@
   }
 }
 
+.feature--secondary{
+  background-color: var(--basic-gray);
+
+  .feature__title{
+    color: var(--basic-black);
+  }
+  .feature__number{
+    color: var(--light-black);
+    &::before{
+      background-color: var(--basic-black);
+    }
+    &::after{
+      background-color: var(--basic-black);
+    }
+  }
+  .feature__description{
+    color: var(--light-black);
+  }
+}
