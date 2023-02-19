@@ -1,4 +1,19 @@
-// Начните писать стили здесь
-.wrapper{
-  border: 1px solid green;
-}
+@import "global/colors.scss";
+@import "global/fonts.scss";
+@import "global/global.scss";
+
+@import "blocks/main-header.scss";
+@import "blocks/logo.scss";
+
+@import "blocks/promo.scss";
+@import "blocks/features-layout.scss";
+@import "blocks/feature.scss";
+
+@import "blocks/map.scss";
+@import "blocks/hashtag.scss";
+@import "blocks/social.scss";
+
+
+
+
+

@@ -1,0 +1,26 @@
+.site-navigation{
+
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+
+
+  &__link{
+
+    display: block;
+    width: 239px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+
+    color: var(--basic-black);
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover{
+      color: var(--light-blue);
+    }
+  }
+}
+
+

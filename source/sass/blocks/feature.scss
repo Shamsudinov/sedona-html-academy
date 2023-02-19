@@ -1,0 +1,28 @@
+.feature{
+
+  width: 400px;
+  padding-top: 47px;
+  padding-bottom: 56px;
+  text-align: center;
+  color: var(--basic-white);
+  background-color: var(--light-blue);
+
+  &__title{
+
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 13px;
+  }
+
+  &__number{
+    display: inline-block;
+    margin-bottom: 26px;
+  }
+
+  &__description{
+    width: 280px;
+    margin: 0 auto;
+  }
+}
+
