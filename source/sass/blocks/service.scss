@@ -2,8 +2,13 @@
   text-align: center;
   padding-top: 60px;
 
+  &__title{
+    margin-bottom: 22px;
+    font-size: 21px;
+    line-height: 26px;
+  }
   &__icon{
-    padding-bottom: 27px;
+    margin-bottom: 16px;
   }
   &__description{
     width: 300px;
