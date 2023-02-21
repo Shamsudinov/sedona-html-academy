@@ -1,0 +1,10 @@
+.copyright{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 140px;
+
+  &__text{
+    color: var(--basic-black);
+  }
+}
